@@ -1,0 +1,27 @@
+/* colors */ 
+
+:root {
+  --color-principal: #ff525d; 
+  --color-secundario: #ff7a85;
+  --color-azul: #1f3f5b;
+  --blanco: #FFF; 
+  --negro: #000;
+  --gris:#c8c8cb;
+  --gris-oscuro:#4b5862; 
+  --gris-negro: 	#25252d;
+  --gris-gradiente: #2c2d3f; 
+  --azul-gradiente: 	#3f4164;
+
+  /* grandients */ 
+
+  --grandiente-hero: background: linear-gradient(180deg, rgba(255,82,93,1) 0%, rgba(255,82,93,1) 40%, rgba(255,122,133,1) 100%);
+  --grandiente-body: background: linear-gradient(180deg, rgba(63,65,100,1) 0%, rgba(63,65,100,1) 60%, rgba(44,45,63,1) 100%);
+
+
+  /* fuentes */ 
+
+  --font-size: 16px; 
+  --overpass: font-family: 'Overpass', sans-serif;
+  --ubuntu: font-family: 'Ubuntu', sans-serif;
+}
+
