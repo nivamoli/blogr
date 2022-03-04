@@ -190,3 +190,37 @@ body {
   font-size: var(--font-size);
   margin-bottom: 60px;
 }
+
+/* section infrastructure */
+
+.infrastructure {
+  display: flex;
+  background-color: var(--color-azul);
+  border-radius: 0 50px 0 50px;
+  margin-top: 120px;
+  height: 350px;
+  margin-bottom: 200px;
+}
+
+.infrastructura-image {
+  width: 50%;
+  margin-top: -65px;
+  margin-left: 30px;
+}
+
+.infrastructure-info {
+  width: 50%;
+  padding: 0 150px 0 200px;
+}
+
+.infrastructure-info__title {
+  font-size: calc(var(--font-size) + 12px);
+  margin-top: 120px;
+  color: var(--blanco);
+  margin-bottom: 20px;
+}
+
+.infrastructure-info__pgraph {
+  font-size: var(--font-size);
+  color: var(--blanco);
+}
