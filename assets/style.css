@@ -249,3 +249,38 @@ body {
   padding-left: 120px;
   margin-top: 160px;
 }
+
+/* Footer */ 
+
+.footer {
+  height: 180px;
+  border-radius: 0 50px 0 0;
+  background-color: var(--gris-negro);
+  display: flex;
+  justify-content: space-around;
+  font-size: var(--font-size);
+  margin-top: 150px;
+  padding: 60px 100px;
+}
+
+.footer__image--logo {
+  margin: 0;
+}
+
+.footer__product--title {
+  font-size: var(--font-size);
+  color: var(--gris);
+  margin-top: 0;
+}
+
+.footer__product--links {
+  display: block;
+  text-decoration: none;
+  margin-bottom: 10px;
+  color: var(--gris-oscuro);
+}
+
+.footer__product--links:hover {
+  text-decoration: underline;
+  color: var(--gris);
+}
